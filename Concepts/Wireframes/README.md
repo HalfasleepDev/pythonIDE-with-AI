@@ -12,12 +12,12 @@ Simple wireframes to visulise the GUI and application functionality. The IDE wil
 ### Elements:
   
 - [x] Window Positioning
-- [ ] Start Up Window
+- [x] Start Up Window
 - [x] Top Bar
 - [x] Menu Bar
 - [x] Menu Utility Widget(s)
-- [ ] Text Editor Window System
-- [ ] Console & Functions
+- [x] Text Editor Window System
+- [x] Console & Functions
 
 </details>
 
@@ -32,3 +32,26 @@ Rough wireframes are just the basic concept and an outline to follow later.
 | Top Bar | Includes functions relating to the current file, windows, and settings. |
 | Menu Bar | The location of all the extentions and additional functions. |
 | Menu Utility Widget(s) | How the widget window for extensions will look visually. |
+| Text Editor Window System | Displays the current file that is being worked on and previous files in tabs. |
+| Console & Functions | Widget where the terminal and AI log is accesed. Also displays computer performance. |
+
+### Window Positioning wireframe
+![[Window Positioning](Concepts/Wireframes/Rough/Window positioning.png)](https://github.com/HalfasleepDev/pythonIDE-with-AI/blob/0af71b05eead0d851a5d9489348e00246f416d38/Concepts/Wireframes/Rough/Window%20positioning.png)
+
+### Start Up Window wireframe
+![[Start Up Window](Concepts/Wireframes/Rough/Start Up Window.png)](https://github.com/HalfasleepDev/pythonIDE-with-AI/blob/0af71b05eead0d851a5d9489348e00246f416d38/Concepts/Wireframes/Rough/Start%20Up%20Window.png)
+
+### Top Bar wireframe
+![[Top Bar](Concepts/Wireframes/Rough/Top Bar.png)](https://github.com/HalfasleepDev/pythonIDE-with-AI/blob/0af71b05eead0d851a5d9489348e00246f416d38/Concepts/Wireframes/Rough/Top%20Bar.png)
+
+### Menu Bar wireframe
+![[Menu Bar](Concepts/Wireframes/Rough/Menu Bar.png)](https://github.com/HalfasleepDev/pythonIDE-with-AI/blob/0af71b05eead0d851a5d9489348e00246f416d38/Concepts/Wireframes/Rough/Menu%20Bar.png)
+
+### Menu Utility Widget(s) wireframe
+![[Menu Utility Widget(s)](Concepts/Wireframes/Rough/Menu Utility Widget.png)](https://github.com/HalfasleepDev/pythonIDE-with-AI/blob/0af71b05eead0d851a5d9489348e00246f416d38/Concepts/Wireframes/Rough/Menu%20Utility%20Widget.png)
+
+### Text Editor Window System wireframe
+![[Text Editor Window System](Concepts/Wireframes/Rough/Text Editor Window.png)](https://github.com/HalfasleepDev/pythonIDE-with-AI/blob/0af71b05eead0d851a5d9489348e00246f416d38/Concepts/Wireframes/Rough/Text%20Editor%20Window.png)
+
+### Console & Functions wireframe
+![[Console & Functions](Concepts/Wireframes/Rough/Console & Functions.png)](https://github.com/HalfasleepDev/pythonIDE-with-AI/blob/0af71b05eead0d851a5d9489348e00246f416d38/Concepts/Wireframes/Rough/Console%20&%20Functions.png)
