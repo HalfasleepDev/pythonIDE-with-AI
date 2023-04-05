@@ -13,9 +13,9 @@ Simple wireframes to visulise the GUI and application functionality. The IDE wil
   
 - [x] Window Positioning
 - [ ] Start Up Window
-- [ ] Top Bar
-- [ ] Menu Bar
-- [ ] Menu Utility Widget(s)
+- [x] Top Bar
+- [x] Menu Bar
+- [x] Menu Utility Widget(s)
 - [ ] Text Editor Window System
 - [ ] Console & Functions
 
@@ -27,4 +27,8 @@ Rough wireframes are just the basic concept and an outline to follow later.
 
 | Element | Description |
 | --- | --- |
-| Window Positioning | The general location layout of each window/widget while the application is being used.
+| Window Positioning | The general location layout of each window/widget while the application is being used. |
+| Start Up Window | The window that the application shows after startup. |
+| Top Bar | Includes functions relating to the current file, windows, and settings. |
+| Menu Bar | The location of all the extentions and additional functions. |
+| Menu Utility Widget(s) | How the widget window for extensions will look visually. |
