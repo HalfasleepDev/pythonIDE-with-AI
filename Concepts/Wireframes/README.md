@@ -1,7 +1,7 @@
 # Wireframe concepts for the IDE GUI
 ## 1. Background
 
-Simple wireframes to visulise the GUI and application functionality. The IDE will have multiple widgets and it is important to figure out how they interact with each other. These wireframes will range from extremely simple to very detailed.
+Simple wireframes to visualize the GUI and application functionality. The IDE will have multiple widgets and it is important to figure out how they interact with each other. These wireframes will range from extremely simple to very detailed.
 
 ## 2. What is done so far
 
@@ -18,6 +18,24 @@ Simple wireframes to visulise the GUI and application functionality. The IDE wil
 - [x] Menu Utility Widget(s)
 - [x] Text Editor Window System
 - [x] Console & Functions
+
+</details>
+
+<details>
+  
+<summary>Basic Wireframes</summary>
+  
+### Elements:
+  
+- [x] Overview
+- [ ] Start Up
+- [ ] File, Edit, Window, Organize(TBD)
+- [ ] File explorer
+- [ ] Search
+- [ ] AI extension
+- [ ] Settings
+- [ ] Terminal
+- [ ] Program monitor
 
 </details>
 
@@ -55,3 +73,15 @@ Rough wireframes are just the basic concept and an outline to follow later.
 
 ### Console & Functions wireframe
 ![[Console & Functions](Concepts/Wireframes/Rough/Console & Functions.png)](https://github.com/HalfasleepDev/pythonIDE-with-AI/blob/0af71b05eead0d851a5d9489348e00246f416d38/Concepts/Wireframes/Rough/Console%20&%20Functions.png)
+
+## 4. Basic Wireframes
+
+The basic wireframes are more thoughtout and closer represents the general idea of the application.
+
+| Element | Description |
+| --- | --- |
+| Overview | The basic idea of how the application will look while being used. Not all elements are shown. | 
+| ... | ... |
+
+### Overview wireframe
+![[Overview](Concepts/Wireframes/Baisc/Overview.png)](https://github.com/HalfasleepDev/pythonIDE-with-AI/blob/1b099cb10556c6d5d0b1e6a28b4bd0263e964010/Concepts/Wireframes/Baisc/Overview.png)
