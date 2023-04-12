@@ -81,7 +81,15 @@ The basic wireframes are more thoughtout and closer represents the general idea 
 | Element | Description |
 | --- | --- |
 | Overview | The basic idea of how the application will look while being used. Not all elements are shown. | 
+| Start Up | The window that appears on startup or selected with the home button. |
 | ... | ... |
 
 ### Overview wireframe
+The example displayed shows the editor working on the selected file indicated by the file explorer window. On the right side is the terminal window
+
 ![[Overview](Concepts/Wireframes/Baisc/Overview.png)](https://github.com/HalfasleepDev/pythonIDE-with-AI/blob/1b099cb10556c6d5d0b1e6a28b4bd0263e964010/Concepts/Wireframes/Baisc/Overview.png)
+
+### Start up wireframe
+The startup or home window includes 3 buttons to create, open and browse projects. The Open recent button has a pop down menu to browse recently created projects. Additionally, included is the about section and links to the project’s README and licenses.
+
+![[Start up](Concepts/Wireframes/Baisc/Start up.png)](https://github.com/HalfasleepDev/pythonIDE-with-AI/blob/1f746598aa34598fdbb05149f125f5de8e1ab52d/Concepts/Wireframes/Baisc/Start%20up.png)
