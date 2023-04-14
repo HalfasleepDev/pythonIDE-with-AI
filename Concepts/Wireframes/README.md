@@ -34,8 +34,8 @@ Simple wireframes to visualize the GUI and application functionality. The IDE wi
 - [x] Search
 - [x] AI extension
 - [x] Settings
-- [ ] Terminal
-- [ ] Program monitor
+- [x] Terminal
+- [x] Program monitor
 
 </details>
 
@@ -87,6 +87,8 @@ The basic wireframes are more thoughtout and closer represents the general idea 
 | Search | Allows to search for files or phrases. Adds the ability to replace and filter the selection. |
 | AI extension | Includes specific functions that are influenced by the AI. |
 | Settings | Manage themes and preferences. |
+| Terminal | Access Terminals and debugging. |
+| Performance Monitor | Monitor system performance such as CPU and GPU, and AI task log. |
 | ... | ... |
 
 ### Overview wireframe
@@ -162,4 +164,19 @@ Includes more detailed settings such as font and minimap. Other setting are TBD.
 #### Minimized
 Has 2 buttons for application settings and keybindings, and text organization. 
 ![[Settings Mini](Concepts/Wireframes/Baisc/Settings window minimized.png)](https://github.com/HalfasleepDev/pythonIDE-with-AI/blob/d3bb9ded5478cc701f7fe068e2206d8cf00f2b04/Concepts/Wireframes/Baisc/Settings%20window%20minimized.png)
-![[]()]()
+
+### Terminal
+#### Default view
+When opened the tab shows the current utility that is in use (terminal, debugging, etc), a button for performance monitor, close button, and a dropdown menu to delect a utility.
+![[Terminal](Concepts/Wireframes/Baisc/Terminal.png)](https://github.com/HalfasleepDev/pythonIDE-with-AI/blob/10b87b0cd2978cc2b83e217303396321cc733fef/Concepts/Wireframes/Baisc/Terminal.png)
+#### Minimized
+Shows a button for quick selection for utility and a close button
+![[Terminal mini](Concepts/Wireframes/Baisc/Terminal minimized.png)](https://github.com/HalfasleepDev/pythonIDE-with-AI/blob/10b87b0cd2978cc2b83e217303396321cc733fef/Concepts/Wireframes/Baisc/Terminal%20minimized.png)
+
+### Performance Monitor
+#### Default view
+Shows system performance coupled with AI task logs for debugging.
+![[PM](Concepts/Wireframes/Baisc/Performance Monitor.png)](https://github.com/HalfasleepDev/pythonIDE-with-AI/blob/10b87b0cd2978cc2b83e217303396321cc733fef/Concepts/Wireframes/Baisc/Performance%20Monitor.png)
+#### Minimized
+Shows system performance
+![[PM mini](Concepts/Wireframes/Baisc/Performance minimized.png)](https://github.com/HalfasleepDev/pythonIDE-with-AI/blob/10b87b0cd2978cc2b83e217303396321cc733fef/Concepts/Wireframes/Baisc/Performance%20minimized.png)
