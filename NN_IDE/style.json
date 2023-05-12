@@ -1,0 +1,151 @@
+{
+	"QMainWindow":[
+		{
+			"tittle":"NN-IDE",
+			"icon":"C:/Users/eloig/Dropbox/Projects/Tablet Project/OS stuff/essential pngs/Untitled-1.png",
+			"transluscentBg": true
+		}
+	],
+    "QCustomSlideMenu": [
+        {
+            "name": "centerMenuContainer",
+            "defaultSize": [{
+                "width": 0,
+                "height": "parent"
+            }],
+            "collapsedSize": [{
+                "width": 0,
+                "height": "parent"
+            }],
+            "expandedSize": [{
+                "width": 200,
+                "height": "parent"
+            }],
+            "menuTransitionAnimation": [{
+                "animationDuration": 500,
+                "animationEasingCurve": "Linear"
+            }]
+        },
+        {
+            "name": "minimizedMenuContainer",
+            "defaultSize": [{
+                "width": 0,
+                "height": "parent"
+            }],
+            "collapsedSize": [{
+                "width": 0,
+                "height": "parent"
+            }],
+            "expandedSize": [{
+                "width": 50,
+                "height": "parent"
+            }],
+            "menuTransitionAnimation": [{
+                "animationDuration": 500,
+                "animationEasingCurve": "Linear"
+            }]
+        },
+        {
+            "name": "rightMenuContainer",
+            "defaultSize": [{
+                "width": 0,
+                "height": "parent"
+            }],
+            "collapsedSize": [{
+                "width": 0,
+                "height": "parent"
+            }],
+            "expandedSize": [{
+                "width": 200,
+                "height": "parent"
+            }],
+            "menuTransitionAnimation": [{
+                "animationDuration": 500,
+                "animationEasingCurve": "Linear"
+            }]
+        },
+        {
+            "name": "minRightMenuContainer",
+            "defaultSize": [{
+                "width": 0,
+                "height": "parent"
+            }],
+            "collapsedSize": [{
+                "width": 0,
+                "height": "parent"
+            }],
+            "expandedSize": [{
+                "width": 50,
+                "height": "parent"
+            }],
+            "menuTransitionAnimation": [{
+                "animationDuration": 500,
+                "animationEasingCurve": "Linear"
+            }]
+        }
+    ],
+    "QStackedWidget":[
+		{
+			"name":"mainPages",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"homeBtn": "page_15"
+                            
+						}
+					]
+				}
+			]
+	
+		},
+        {
+			"name":"centerMenuPages",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"fileBtn": "page_4",
+                            "searchBtn": "page_3",
+                            "aiBtn": "page_2",
+                            "settingsBtn": "page"
+                            
+						}
+					]
+				}
+			]
+	
+		},
+        {
+			"name":"minCenterMenuPages",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"fileBtn": "page_8",
+                            "searchBtn": "page_7",
+                            "aiBtn": "page_6",
+                            "settingsBtn": "page_5"
+                            
+						}
+					]
+				}
+			]
+	
+		}
+	],
+    "QPushButtonGroup": [{
+            "Buttons": [
+                "homeBtn",
+                "fileBtn",
+                "searchBtn",
+                "aiBtn",
+                "settingsBtn"
+            ],
+            "Style":[{
+                "Active": "background-color: #baacfd;",
+                "NotActive": ""
+            }]
+	}
+    ]
+}
