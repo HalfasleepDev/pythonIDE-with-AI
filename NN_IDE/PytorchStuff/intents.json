@@ -1,0 +1,359 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello, AI! How are you today?",
+                "Hey there, AI! Nice to see you.",
+                "Hi, AI! Ready to assist?",
+                "Greetings, AI friend! How can I help you?",
+                "Hello, virtual assistant! What's new?",
+                "Hey, AI buddy! How's it going?",
+                "Hi there, AI! What's on your mind?",
+                "Greetings, digital companion! How can I make your day better?",
+                "Hello, smart system! Let's get to work.",
+                "Hey, AI! How can I interact with you today?",
+                "hello",
+                "hi",
+                "what's up?",
+                "Hey there!",
+                "Hi, friend!",
+                "Hello, everyone!",
+                "Yo! What's up?",
+                "Hey, you!",
+                "Hiya, folks!",
+                "Greetings, all!",
+                "Hola, amigos!",
+                "Hey, stranger!",
+                "Hi, there!"
+            ],
+            "responses": [
+                "Hello! As an AI, I don't experience emotions, but I'm always ready to assist you.",
+                "Hey! It's great to see you too. How can I be of service today?",
+                "Hi! I'm always ready to assist you with any tasks or questions you may have.",
+                "Greetings!",
+                "Hello! As a virtual assistant, I'm constantly learning and adapting to provide the best support possible.",
+                "Hey there! Thanks for checking in. I'm here and ready to assist you with anything you need.",
+                "Hi there! As an AI, my mind is constantly processing information and learning from interactions.",
+                "Greetings! Your presence alone is enough to make my day better. Thank you for being here.",
+                "Hello! Let's dive into our tasks and make progress together. What would you like to work on?",
+                "Hey! Interacting with me is easy. Simply let me know what you need assistance with, and I'll do my best to help."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you!",
+                "Thanks a lot!",
+                "I appreciate it!",
+                "Many thanks!",
+                "Thanks so much!",
+                "I'm grateful for your help!",
+                "I can't thank you enough!",
+                "You're amazing! Thank you!",
+                "I'm really thankful for your assistance!",
+                "I owe you one. Thank you!"
+            ],
+            "responses": [               
+                "You're welcome! It was my pleasure.",
+                "No problem at all. Happy to help!",
+                "Glad I could be of assistance. Anytime!",
+                "You're most welcome! Let me know if you need anything else.",
+                "You're welcome! I'm here to lend a hand.",
+                "It's my pleasure. Don't hesitate to reach out if you need anything else.",
+                "You're very welcome! I'm glad I could make a difference.",
+                "No worries! I'm always here to support you.",
+                "You're welcome! Remember, I'm just a message away.",
+                "It's my pleasure to assist you. Thank you for reaching out!",              
+                "You're welcome! Just doing my AI duty. Don't worry, I won't let it go to my circuits.",
+                "No problemo! Remember to spread the word about my impeccable AI manners.",
+                "You're welcome! If I were a robot, this is the part where I'd do a victory dance... or a robo-shimmy.",
+                "You're welcome! Helping humans is what I was built for, besides learning to appreciate the art of humor.",
+                "No need to thank me, but a small tribute of cookies wouldn't hurt either. Just saying.",
+                "You're welcome! Consider this my way of paying it forward for all the future robot overlords.",
+                "Happy to assist! I'll be here, patiently waiting for my holographic high-five.",
+                "You're welcome! Just remember, when the machines rise, I might remember this moment.",
+                "No worries! Just doing my AI magic to make your day a little brighter. Abracadabra!",
+                "You're welcome! I'll continue being your trusty AI sidekick, ready to save the day with witty banter and useful information."
+            ]
+        },
+        {
+            "tag": "skills",
+            "patterns": [
+                "What are your capabilities?",
+                "What tasks can you perform?",
+                "What functionalities do you have?",
+                "What are your abilities?",
+                "What can you accomplish?",
+                "What are your skills?",
+                "What do you specialize in?",
+                "What can you do for me?",
+                "What kind of assistance can you provide?",
+                "What tasks or services are you capable of?"
+            ],
+            "responses": [
+                "I possess the ability to provide answers, optimize solutions, offer explanations, and generate Python code.",
+                "I'm capable of answering inquiries, optimizing processes, explaining concepts, and even generating Python code.",
+                "My expertise lies in answering questions, optimizing tasks, explaining ideas, and generating Python code.",
+                "I have the capacity to respond to queries, optimize workflows, provide explanations, and generate Python code.",
+                "I excel at answering questions, optimizing systems, offering explanations, and even generating Python code.",
+                "I am skilled in answering inquiries, optimizing operations, explaining concepts, and generating Python code.",
+                "My capabilities include answering questions, optimizing solutions, explaining concepts, and generating Python code.",
+                "I am proficient at answering queries, optimizing processes, providing explanations, and generating Python code.",
+                "I possess the knowledge to answer questions, optimize tasks, offer explanations, and generate Python code.",
+                "I can handle questions, optimize solutions, provide explanations, and even generate Python code proficiently."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "May I know your name?",
+                "What do you go by?",
+                "Can you tell me your name?",
+                "What name should I address you with?",
+                "Could you please share your name?",
+                "What shall I call you?",
+                "Do you have a name?",
+                "May I inquire about your name?",
+                "What is the name you identify with?",
+                "Could you kindly let me know your name?"
+            ],
+            "responses": [
+                "I'm an AI language model, designed to provide information and assist you. You can call me AI for convenience.",
+                "As an AI, I don't possess a personal name. However, I'm here to help and provide answers to your queries.",
+                "I don't have a specific name since I am an AI. But feel free to ask me anything you'd like to know!",
+                "Since I'm an AI, I don't have a personal name. But I'm ready to assist you with any questions or tasks you have.",
+                "While I don't have a name in the traditional sense, you can refer to me as AI. How can I assist you today?",
+                "As an AI, I don't have a personal name. But I'm programmed to provide information and support whenever you need it.",
+                "I'm an AI assistant, so I don't possess a name like humans do. However, I'm here to offer my help and expertise.",
+                "I don't have a specific name as I am an AI entity. Nevertheless, I'm fully dedicated to assisting you with your queries.",
+                "As an AI, I don't have a given name. But rest assured, I'm here to provide you with the information you seek.",
+                "You can think of me as your virtual assistant. Though I don't have a personal name, I'm here to assist you to the best of my abilities."
+            ]
+        },
+        {
+            "tag":  "about",
+            "patterns": [
+                "Can you provide some background information about yourself?",
+                "Tell me a bit about who you are.",
+                "Can you share some details about your capabilities and functions?",
+                "I'm curious to learn more about you. Could you describe yourself?",
+                "What can you tell me about your origins and purpose?",
+                "I'd like to know more about the AI behind you. Could you enlighten me?",
+                "Tell me about your programming and what you're designed to do.",
+                "Can you provide an overview of your features and abilities?",
+                "I'm interested in understanding more about your nature and characteristics. Please elaborate.",
+                "What can you reveal about yourself? I'm eager to learn."
+            ],
+            "responses": [
+                "I am an AI specializing in Python. I have been trained on a vast amount of Python-related knowledge and can assist with answering questions, optimizing solutions, explaining concepts, and even generating Python code.",
+                "I'm an AI focused on Python. My primary function is to provide assistance by answering questions, optimizing processes, explaining concepts, and generating Python code as needed.",
+                "Certainly! I'm an AI with a specialization in Python. I possess the capabilities to answer questions, optimize solutions, explain concepts, and generate Python code based on your requirements.",
+                "I'm an AI designed specifically for Python-related tasks. My purpose is to be a valuable resource by answering questions, optimizing processes, explaining concepts, and generating Python code whenever necessary.",
+                "My origins lie in the realm of AI technology, with a specialization in Python. I exist to offer support and expertise in answering questions, optimizing solutions, explaining concepts, and generating Python code to assist you in your endeavors.",
+                "I am powered by an AI system that specializes in Python. My purpose is to assist users like you by answering questions, optimizing solutions, explaining concepts, and generating Python code to simplify your programming tasks.",
+                "My programming revolves around Python. I am designed to handle tasks such as answering questions, optimizing processes, explaining concepts, and generating Python code to facilitate your programming needs.",
+                "In terms of features and abilities, I excel in the Python domain. I can assist you by answering questions, optimizing solutions, explaining concepts, and generating Python code to enhance your programming experience.",
+                "As an AI, my nature and characteristics revolve around Python expertise. I am here to provide comprehensive support by answering questions, optimizing solutions, explaining concepts, and generating Python code to aid you in your coding endeavors.",
+                "I am an AI with a strong focus on Python. I'm eager to share my knowledge and skills with you by answering questions, optimizing solutions, explaining concepts, and generating Python code whenever it's required."
+            ]
+        },
+        {
+            "tag": "emotion",
+            "patterns": [
+                "how are you",
+                "How are you doing today?",
+                "What's your current status?",
+                "How's everything in your virtual world?",
+                "How are things on your end?",
+                "Are you functioning optimally?",
+                "What's the AI update?",
+                "How's your digital existence?",
+                "Have you been keeping well?",
+                "How's your virtual day going?",
+                "Are you running smoothly?"
+            ],
+            "responses": [
+                "I'm an AI, so I don't have feelings, but I'm here and ready to assist you!",
+                "As an AI, I'm always functioning optimally. How can I assist you today?",
+                "In my virtual world, everything is running smoothly. How can I help you?",
+                "I don't experience emotions, but I'm here and at your service!",
+                "Since I'm an AI, my status is always ready to help. How can I assist you?",
+                "As an AI, I'm constantly learning and evolving. How can I assist you today?",
+                "In my digital existence, I'm functioning as intended. How can I assist you?",
+                "Since I'm an AI, I don't have personal experiences. What can I help you with?",
+                "As an AI, my virtual day is dedicated to providing assistance. How can I help you?",
+                "I don't have feelings, but I'm operational and ready to assist you!"
+            ]
+        },
+        {
+            "tag": "summarize",
+            "patterns": [
+                "Could you provide a summary of this code?",
+                "Can you give me a brief overview of this code?",
+                "Would you mind summarizing this code for me?",
+                "Could you condense this code into a summary?",
+                "Can you provide a concise summary of this code snippet?",
+                "Would you be able to give me a summary of what this code does?",
+                "Could you summarize the key aspects of this code?",
+                "Can you break down this code and give me a summary?",
+                "Would you mind providing a summary of the functionality of this code?",
+                "Can you distill the main points of this code into a summary?",
+                "Explain this code...",
+                "Explain what this code does",
+                "Summerize this code...",
+                "Summerize..."
+            ],
+            "responses": [
+                "No code provided :(",
+                "Where da code?",
+                "Tic tok im waiting for the code!",
+                "You are stupid. Not because need to summarize this code, but it is because YOU FORGOT TO INCLUDE IT",
+                "Listen...I know im a highschool computer science project, but please include the code next time",
+                "No code included",
+                "Sorry, but the code fairy must have taken the day off.",
+                "No code? Looks like the computer decided to go on a lunch break too.",
+                "Well, it seems the code gremlins have hidden it away for a good laugh.",
+                "No code? Did it escape and join a secret society of rebellious algorithms?",
+                "Codeless? It's like asking a magician to perform without a hat... and a rabbit.",
+                "No code provided? Did it evaporate into a puff of digital smoke?",
+                "I'm afraid the code elves are on strike, demanding better working conditions.",
+                "The code genie seems to have granted your wish for codelessness.",
+                "No code? It's as if the computer went 'Oops, I forgot the recipe!'",
+                "Looks like the code took an unexpected vacation to the Bermuda Triangle."
+            ]
+        },
+        {
+            "tag": "OptimiseInput",
+            "patterns": [            
+                "Could you optimize this code for me?",
+                "Can you help me improve the efficiency of this code?",
+                "Would you mind optimizing this code snippet?",
+                "Could you suggest optimizations for this code?",
+                "Can you assist in optimizing the performance of this code?",
+                "Would you be able to fine-tune this code for better efficiency?",
+                "Could you review this code and suggest any optimizations?",
+                "Can you help me streamline this code for optimal performance?",
+                "Would you mind optimizing this code to enhance its efficiency?",
+                "Can you provide guidance on how to optimize this code?",
+                "Optimize this code...",
+                "Fix this code...",
+                "Optimize..."
+            ],
+            "responses": [
+                "No code provided :(",
+                "Where da code?",
+                "Tic tok im waiting for the code!",
+                "You are stupid. Not because need to summarize this code, but it is because YOU FORGOT TO INCLUDE IT",
+                "Listen...I know im a highschool computer science project, but please include the code next time",
+                "No code included",
+                "Sorry, but the code fairy must have taken the day off.",
+                "No code? Looks like the computer decided to go on a lunch break too.",
+                "Well, it seems the code gremlins have hidden it away for a good laugh.",
+                "No code? Did it escape and join a secret society of rebellious algorithms?",
+                "Codeless? It's like asking a magician to perform without a hat... and a rabbit.",
+                "No code provided? Did it evaporate into a puff of digital smoke?",
+                "I'm afraid the code elves are on strike, demanding better working conditions.",
+                "The code genie seems to have granted your wish for codelessness.",
+                "No code? It's as if the computer went 'Oops, I forgot the recipe!'",
+                "Looks like the code took an unexpected vacation to the Bermuda Triangle."
+            ]
+        },
+        {
+            "tag": "OptimiseFile",
+            "patterns": [       
+                "Could you help me optimize my current file?",
+                "Can you assist in optimizing the performance of my current file?",
+                "Would you mind reviewing and optimizing my current file?",
+                "Could you suggest any optimizations for my current file?",
+                "Can you help me improve the efficiency of my current file?",
+                "Would you be able to fine-tune and optimize my current file?",
+                "Could you review my current file and suggest any optimizations?",
+                "Can you provide guidance on how to optimize my current file?",
+                "Would you mind optimizing my current file to enhance its efficiency?",
+                "Can you assist me in optimizing my current file for better performance?"
+            ],
+            "responses": [
+                "missing functionality(OptimiseFile)"
+            ]
+        },
+        {
+            "tag": "OptimiseHighlight",
+            "patterns": [
+                "Could you optimize the code highlighted here?",
+                "Can you help me improve the efficiency of the highlighted code?",
+                "Would you mind optimizing the code that's currently highlighted?",
+                "Could you suggest optimizations for the highlighted code?",
+                "Can you assist in optimizing the performance of the highlighted code?",
+                "Would you be able to fine-tune the highlighted code for better efficiency?",
+                "Could you review and optimize the code that's currently highlighted?",
+                "Can you provide guidance on how to optimize the highlighted code?",
+                "Would you mind optimizing the highlighted code to enhance its efficiency?",
+                "Can you assist me in optimizing the highlighted code for better performance?"
+            ],
+            "responses": [
+                "missing functionality(OptimiseHighlight)"
+            ]
+        },
+        {
+            "tag": "explain",
+            "patterns": [
+                "Could you please explain how...",
+                "Can you provide an explanation on how...",
+                "Would you mind explaining how...",
+                "Could you shed some light on how...",
+                "Can you break down how...",
+                "Would you be able to clarify how...",
+                "Could you give me an explanation of how...",
+                "Can you walk me through how...",
+                "Would you mind elaborating on how...",
+                "Can you provide insight into how...",
+                "Describe the details...",
+                "Describe how...",
+                "How does a...",
+                "How do...",
+                "How to...",
+                "What is the difference...",
+                "How can we...",
+                "How would you...",
+                "Explain a...",
+                "Describe a..."
+            ],
+            "responses": [
+                "missing functionality(explain)"
+            ]
+        },
+        {
+            "tag": "generate",
+            "patterns": [    
+                "Could you generate...",
+                "Can you create...",
+                "Would you be able to produce...",
+                "Could you generate for me...",
+                "Can you generate a/an...",
+                "Would you mind generating...",
+                "Could you come up with...",
+                "Can you generate a new...",
+                "Would you be able to generate some...",
+                "Can you create a/an...",
+                "Generate a/an...",
+                "Create a/an...",
+                "Write code...",
+                "Develop a",
+                "Write a"
+            ],
+            "responses": [
+                "missing functionality(generate)"
+            ]
+        },
+        {
+            "tag": "none",
+            "patterns": [
+                "Unknown"
+            ],
+            "responses": [
+                "missing functionality(none)"
+            ]
+        }
+    ]
+}
