@@ -1,1 +1,1 @@
-textActivated
+from PyQt5.Qsci import QsciScintilla

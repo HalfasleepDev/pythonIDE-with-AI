@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'interfacevlVZNL.ui'
+## Form generated from reading UI file 'interfaceRMmmkv.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.5.0
 ##
@@ -17,10 +17,10 @@ from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
     QPainter, QPalette, QPixmap, QRadialGradient,
     QTransform)
 from PySide6.QtWidgets import (QApplication, QComboBox, QFrame, QHBoxLayout,
-    QLabel, QMainWindow, QMenu, QMenuBar,
-    QPushButton, QSizePolicy, QSpacerItem, QVBoxLayout,
-    QWidget)
-
+    QHeaderView, QLabel, QMainWindow, QMenu,
+    QMenuBar, QPushButton, QSizePolicy, QSpacerItem,
+    QTabWidget, QTreeView, QVBoxLayout, QWidget)
+from PyQt5.Qsci import QsciScintilla
 from Custom_Widgets.Widgets import (QCustomSlideMenu, QCustomStackedWidget)
 import QSS_Resources_rc
 
@@ -68,6 +68,19 @@ class Ui_MainWindow(object):
 "	background-color: #606390;\n"
 "	border-radius:12px\n"
 "}\n"
+"QTabBar::tab {\n"
+"    background: #2D2E2E;\n"
+"\n"
+"    border-bottom-color: #C2C7CB; /* same as the pane color */\n"
+"    border-top-left-radius: 4"
+                        "px;\n"
+"    border-top-right-radius: 4px;\n"
+"    min-width: 8ex;\n"
+"    padding: 2px;\n"
+"}\n"
+"QTabBar::tab:selected, QTabBar::tab:hover {\n"
+"    background: #494454;\n"
+"}\n"
 "QMenuBar{\n"
 "	background-color: #2D2E2E;\n"
 "}\n"
@@ -76,8 +89,7 @@ class Ui_MainWindow(object):
 "	border-radius: 4px;\n"
 "}\n"
 "QMenu{\n"
-""
-                        "	 background-color: #2D2E2E;\n"
+"	 background-color: #2D2E2E;\n"
 "     margin: 2px; /* some spacing around the menu */\n"
 "}\n"
 "QMenu::item {\n"
@@ -419,7 +431,15 @@ class Ui_MainWindow(object):
         self.label_4.setObjectName(u"label_4")
         self.label_4.setFont(font1)
 
-        self.verticalLayout_11.addWidget(self.label_4)
+        self.verticalLayout_11.addWidget(self.label_4, 0, Qt.AlignTop)
+
+        self.treeView = QTreeView(self.page_4)
+        self.treeView.setObjectName(u"treeView")
+        font2 = QFont()
+        font2.setPointSize(8)
+        self.treeView.setFont(font2)
+
+        self.verticalLayout_11.addWidget(self.treeView)
 
         self.centerMenuPages.addWidget(self.page_4)
 
@@ -460,7 +480,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_30 = QVBoxLayout(self.mainContentsContainer)
         self.verticalLayout_30.setSpacing(0)
         self.verticalLayout_30.setObjectName(u"verticalLayout_30")
-        self.verticalLayout_30.setContentsMargins(0, 3, 0, 3)
+        self.verticalLayout_30.setContentsMargins(0, 0, 0, 0)
         self.mainPages = QCustomStackedWidget(self.mainContentsContainer)
         self.mainPages.setObjectName(u"mainPages")
         self.page_15 = QWidget()
@@ -469,10 +489,10 @@ class Ui_MainWindow(object):
         self.verticalLayout_31.setObjectName(u"verticalLayout_31")
         self.label_13 = QLabel(self.page_15)
         self.label_13.setObjectName(u"label_13")
-        font2 = QFont()
-        font2.setPointSize(20)
-        font2.setBold(True)
-        self.label_13.setFont(font2)
+        font3 = QFont()
+        font3.setPointSize(20)
+        font3.setBold(True)
+        self.label_13.setFont(font3)
 
         self.verticalLayout_31.addWidget(self.label_13)
 
@@ -481,11 +501,13 @@ class Ui_MainWindow(object):
         self.page_16.setObjectName(u"page_16")
         self.verticalLayout_33 = QVBoxLayout(self.page_16)
         self.verticalLayout_33.setObjectName(u"verticalLayout_33")
-        self.label_19 = QLabel(self.page_16)
-        self.label_19.setObjectName(u"label_19")
-        self.label_19.setFont(font2)
+        self.tabWidget = QTabWidget(self.page_16)
+        self.tabWidget.setObjectName(u"tabWidget")
+        self.tab = QWidget()
+        self.tab.setObjectName(u"tab")
+        self.tabWidget.addTab(self.tab, "")
 
-        self.verticalLayout_33.addWidget(self.label_19)
+        self.verticalLayout_33.addWidget(self.tabWidget)
 
         self.mainPages.addWidget(self.page_16)
         self.page_17 = QWidget()
@@ -494,7 +516,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_34.setObjectName(u"verticalLayout_34")
         self.label_20 = QLabel(self.page_17)
         self.label_20.setObjectName(u"label_20")
-        self.label_20.setFont(font2)
+        self.label_20.setFont(font3)
 
         self.verticalLayout_34.addWidget(self.label_20)
 
@@ -825,7 +847,8 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.centerMenuPages.setCurrentIndex(1)
+        self.centerMenuPages.setCurrentIndex(3)
+        self.mainPages.setCurrentIndex(0)
         self.minTerminalPages.setCurrentIndex(0)
         self.terminalPages.setCurrentIndex(0)
 
@@ -889,7 +912,7 @@ class Ui_MainWindow(object):
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"Search", None))
         self.label_4.setText(QCoreApplication.translate("MainWindow", u"File Explorer", None))
         self.label_13.setText(QCoreApplication.translate("MainWindow", u"Home", None))
-        self.label_19.setText(QCoreApplication.translate("MainWindow", u"Text Editor", None))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), QCoreApplication.translate("MainWindow", u"Page", None))
         self.label_20.setText(QCoreApplication.translate("MainWindow", u"More Settings", None))
 #if QT_CONFIG(tooltip)
         self.maxRightMenuBtn.setToolTip(QCoreApplication.translate("MainWindow", u"Maximize", None))
@@ -931,4 +954,3 @@ class Ui_MainWindow(object):
         self.menuEdit.setTitle(QCoreApplication.translate("MainWindow", u"Edit", None))
         self.menuWindow.setTitle(QCoreApplication.translate("MainWindow", u"Window", None))
     # retranslateUi
-

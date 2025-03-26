@@ -1,11 +1,25 @@
 {
 	"QMainWindow":[
 		{
-			"tittle":"NN-IDE",
+			"tittle":"NN-IDE-Prototype",
 			"icon":"C:/Users/eloig/Dropbox/Projects/Tablet Project/OS stuff/essential pngs/Untitled-1.png",
 			"transluscentBg": true
 		}
 	],
+    "QSettings": [
+        {
+            "ThemeSettings": [
+                {
+                    "CustomTheme": []
+                }
+            ],
+            "AppSettings": {
+                "OrginizationName": "",
+                "ApplicationName": "",
+                "OrginizationDormain": ""
+            }
+        }
+    ],
     "QCustomSlideMenu": [
         {
             "name": "centerMenuContainer",
@@ -18,7 +32,7 @@
                 "height": "parent"
             }],
             "expandedSize": [{
-                "width": 200,
+                "width": 228,
                 "height": "parent"
             }],
             "menuTransitionAnimation": [{
@@ -77,6 +91,25 @@
             "expandedSize": [{
                 "width": 50,
                 "height": "parent"
+            }],
+            "menuTransitionAnimation": [{
+                "animationDuration": 500,
+                "animationEasingCurve": "Linear"
+            }]
+        },
+        {
+            "name": "widget_2",
+            "defaultSize": [{
+                "width": 0,
+                "height": 0
+            }],
+            "collapsedSize": [{
+                "width": 0,
+                "height": 0
+            }],
+            "expandedSize": [{
+                "width": "parent",
+                "height": 200
             }],
             "menuTransitionAnimation": [{
                 "animationDuration": 500,
@@ -143,7 +176,7 @@
                 "settingsBtn"
             ],
             "Style":[{
-                "Active": "background-color: #baacfd;",
+                "Active": "background-color: #606390;",
                 "NotActive": ""
             }]
 	}
